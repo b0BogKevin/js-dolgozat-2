@@ -38,7 +38,7 @@ console.log(every([0, 1, 2, 3, 4], 3, 1), [1, 4]);
 function oddOnesOut(nums) {
     let ismetlodes = {}
     let eredmeny = []
-    for(num of nums)
+    for(const num of nums)
     {
         ismetlodes[num] = ismetlodes[num] ? ismetlodes[num] + 1 : 1
     }
